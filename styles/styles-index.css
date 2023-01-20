@@ -69,11 +69,12 @@ h3 {
     color: white;
 }
 
-input{
+input {
     padding-left: 15px;
 }
 
-.footer__button--color:hover{
-background: white;
-color: #FF9900;
+.footer__button--color:hover {
+    background: white;
+    color: #FF9900;
+    cursor: pointer;
 }
