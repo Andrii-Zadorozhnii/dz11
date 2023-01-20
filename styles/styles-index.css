@@ -3,7 +3,7 @@
 }
 
 .main__footer--size {
-margin: 0 auto;
+    margin: 0 auto;
     max-width: 1440px;
     width: 100%;
     max-height: 349px;
@@ -80,3 +80,13 @@ input {
     cursor: pointer;
 }
 
+.navigation {
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navigation:hover {
+    background: yellow;
+}

@@ -1,4 +1,4 @@
-*{
+* {
     font-family: sans-serif;
 }
 
@@ -75,7 +75,7 @@ h2 {
     margin-top: 70px;
 }
 
-.button__submit{
+.button__submit {
 
     max-width: 1440px;
     width: 100%;
@@ -83,12 +83,12 @@ h2 {
     justify-content: center;
 }
 
-.submit__button:hover{
+.submit__button:hover {
     background: #FFFFFF;
     color: #FF9900;
 }
 
-body{
+body {
     background-image: url(/images/toolsList/bg.png);
     background-position: center;
     background-attachment: fixed;
@@ -97,10 +97,20 @@ body{
 }
 
 .tool:hover .tools__block {
- opacity: 0.4;
+    opacity: 0.4;
 }
 
 .toolsList:hover .tools__block:hover {
     opacity: 1;
 }
 
+.navigation {
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navigation:hover {
+    background: yellow;
+}
